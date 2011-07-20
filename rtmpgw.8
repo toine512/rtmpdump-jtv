@@ -50,6 +50,8 @@ rtmpgw \- RTMP streaming media gateway
 [\c
 .BI \-T \ key\fR]
 [\c
+.BI \-j \ JSON\fR]
+[\c
 .BI \-w \ swfHash\fR]
 [\c
 .BI \-x \ swfSize\fR]
@@ -192,6 +194,9 @@ These options handle additional authentication requests from the server.
 \fB\-\-token		\-T\fP\ \fIkey\fP
 Key for SecureToken response, used if the server requires SecureToken
 authentication.
+.TP
+\fB\-\-jtv		\-j\fP\ \fIJSON\fP
+JSON token used by legacy Justin.tv servers. Invokes NetStream.Authenticate.UsherToken
 .TP
 \fB\-\-swfhash		\-w\fP\ \fIhexstring\fP
 SHA256 hash of the decompressed SWF file. This option may be needed if
