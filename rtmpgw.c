@@ -1103,6 +1103,8 @@ main(int argc, char **argv)
       RTMP_LogPrintf
 	    ("--jtv|-j JSON           Authentication token for Justin.tv legacy servers\n");
 	  RTMP_LogPrintf
+	    ("--jtv|-j JSON           Authentication token for Justin.tv legacy servers\n");
+	  RTMP_LogPrintf
 	    ("--buffer|-b             Buffer time in milliseconds (default: %lu)\n\n",
 	     defaultRTMPRequest.bufferTime);
 
